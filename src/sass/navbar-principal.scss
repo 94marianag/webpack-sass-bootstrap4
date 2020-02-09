@@ -1,0 +1,32 @@
+.navbar-principal{
+    @extend .navbar;
+    @extend .navbar-expand-lg;
+    @extend .navbar-light;
+    @extend .bg-light;
+    @extend .fixed-top;
+  
+  
+  div:first-of-type{
+    @extend .container;
+  
+    a:first-of-type{
+      @extend .navbar-brand;
+    }
+  
+  
+  button:first-of-type{
+    @extend .navbar-toggler;
+  
+    span{
+  
+      @extend .navbar-toggler-icon;
+    }
+  }
+  }
+  }
+  
+  body>div.container{
+    background-color: rgba($color: #e35f5fb2, $alpha: 1.0);
+  }
+  
+  

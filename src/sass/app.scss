@@ -1,5 +1,13 @@
+
+$body-bg: rgba(0, 0, 0, 0.651);
+$body-color: rgb(222, 213, 213);
+
 @import "~bootstrap/scss/bootstrap";
 
-body {
-  background: rgba(44, 111, 150, 0.137);
-}
+@import "./navbar-principal.scss";
+
+@import "./components/container-1.scss";
+
+// p:first-of-type{
+//   font-size: 3em;
+// }

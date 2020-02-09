@@ -1,0 +1,13 @@
+#container-1{
+    @extend .container;
+  
+      .fila{
+        @extend .row;
+  
+        .element{
+          @extend .col-xl-3;
+          @extend .col-md-6;
+          @extend .mb-4;
+        }
+      }
+  }
